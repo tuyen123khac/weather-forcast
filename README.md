@@ -1,4 +1,4 @@
-# weather-forcast
+# Weather Forcast App
 Weather Forcast App using MVVM Architecture with openweathermap API
 
 A. Application's functionalities and Architecture:
