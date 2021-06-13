@@ -12,7 +12,7 @@ import io.reactivex.schedulers.Schedulers
 
 private const val TAG = "MainViewModel"
 
-class MainViewModel:ViewModel() {
+class MainViewModel : ViewModel() {
     private val weatherApiService = WeatherApiService()
     private val disposable = CompositeDisposable()
 
@@ -20,7 +20,7 @@ class MainViewModel:ViewModel() {
     val weatherError = MutableLiveData<Boolean>()
     val weatherLoading = MutableLiveData<Boolean>()
 
-    fun refreshData(cityName: String){
+    fun refreshData(cityName: String) {
         getDataFromApi(cityName)
     }
 
@@ -35,7 +35,7 @@ class MainViewModel:ViewModel() {
                         weatherData.value = t
                         weatherError.value = false
                         weatherLoading.value = false
-                        Log.d(TAG, "onSuccess: Success")
+                        Log.d(TAG, "onSuccess: get Data from server successfully")
                     }
 
                     override fun onError(e: Throwable) {

@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Date:"
+            android:text="@string/date"
             android:textColor="@color/background_hint"
             android:textStyle="bold" />
 
@@ -24,7 +24,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Tue, 10 Mar 2021" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,7 +36,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Average temperature:"
+            android:text="@string/average_temperature"
             android:textColor="@color/background_hint"
             android:textStyle="bold" />
 
@@ -45,7 +45,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="15°C" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,7 +57,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Pressure:"
+            android:text="@string/pressure"
             android:textColor="@color/background_hint"
             android:textStyle="bold" />
 
@@ -66,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="1031" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,7 +78,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Humidity:"
+            android:text="@string/humidity"
             android:textColor="@color/background_hint"
             android:textStyle="bold" />
 
@@ -87,7 +87,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="72%" />
+            android:text="" />
     </LinearLayout>
 
     <LinearLayout
@@ -99,7 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="Description:"
+            android:text="@string/description"
             android:textColor="@color/background_hint"
             android:textStyle="bold" />
 
@@ -108,7 +108,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="@dimen/_2sdp"
-            android:text="light rain" />
+            android:text="" />
     </LinearLayout>
 
     <RelativeLayout
