@@ -6,12 +6,12 @@ A. Application's functionalities and Architecture:
 1. Retrieve the weather information from OpenWeatherMaps API
 2. Allow user to input the searching term
 3. Proceed searching with a condition of the search term length must be from 3 characters or above
-4. Render the searched results as a list of weather items, app will show weather infomation in today and next 6 days.
+4. Render the searched results as a list of weather items, app will show weather information in today and next 6 days.
 5. Handle failures by: 
   - Input invalid search term length less than 3 characters
   - Input invalid search term (query)
   - Network issue
-6. Give user an experiences that App run smoothly by displaying progress bar when fetching data.
+6. Give the user an experience that App runs smoothly by displaying progress bar when fetching data.
 
 Software development principle was applied in the app:
  - Keep It Simple Simon (KISS)
@@ -60,6 +60,6 @@ D. Which item this app has done
 
 What this app still not have:
 1. Unit test
-2. Secure from decomple APK (App get null exception while applying pro-guard by default minifyEnabled = true) 
-3. Local data
+2. Secure from decompile APK (App get a null exception while applying pro-guard by default minifyEnabled = true)
+3. Local data storing
 
